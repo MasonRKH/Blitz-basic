@@ -7,9 +7,8 @@ const fetch = require('node-fetch') // requires node-fetch@2
 exports.compile = intakeRequest
 
 /**
-* Creates GitHub repository API URL from request parameters:
-*   {@index.js req.params.username, req.params.forked}
-*   Calls validateRequest from forked request content
+* Creates GitHub repository API URL from request parameters. Calls validateRequest
+*   with forked request
 *
 * @param {string} username - requested GitHub user
 * @param {string} forked - compilation specification request
