@@ -1,5 +1,5 @@
 # Blitz-basic
-Blitz-basic defines an API endpoint service which compiles repository data from the GitHub API of a specific user's public profile.
+Blitz-basic defines a basic API endpoint service which compiles repository data from the GitHub API of a specific user's public profile.
 To do so, the app requires one URL parameter with a second optional. 
   The first is the username of the GitHub user, like 'MasonRKH'.
   The second, optional parameter is a specification request which allows the inclusion of repositories that are forked (forked repositories are ignored by default),
